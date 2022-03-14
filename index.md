@@ -7,26 +7,19 @@ boxId: kweltidiq4bv1m9ow12prsuo9x2espsd
 
 
 -------------------------------------------
-Add workshop description here. Make sure it is descriptive enough that people understand what they will learn in the workshop, but only one paragraph with no more than 3-5 sentences. (same as workshop description for event announcements)
-
-Additionally, in a second paragraph, please mention the data set or materials that will be used in the workshop and briefly describe them. Also, briefly describe some of the things that will be done with the data/materials in the workshop, "i.e. load data into Jupyter Notebook and create basic data visualizations showing the relationship between [variable 1] and [variable 2].
+What are the features in RStudio beyond running r scripts and can help you keep your research project organized? Join us for this workshop which covers advice for project management in R, working with R project files and using Git version control in RStudio with the aim of making your projects easier to share and more reproducible. 
 
 {% comment %} briefly list workshop goals below - should be the same as the objectives from each workshop section (also repeated in the workshop overview) {% endcomment %}
 
 ## Workshop goals
-- goal #1
-- goal #2
-- goal #3  
+- Research project management in RStudio
+- Setting up RStudio's Git integration
+- Basics of using version control in RStudio with Git
+- Using GitHub to make your work publically available  
 
 <br>
 > ## Pre-requisites
-> __STOP:__ before starting this workshop, please attend the following Digital Scholarship Lab workshop(s) before completing this one:
-> * [Workshop Title Here](https://researchguides.uic.edu/hub/workshops)  
->   
-> __OR__ make sure you're comfortable with the following concepts (study suggestions in parentheses)  
-> 
-> * first pre-requisite ([resource 1]())
-> * second pre-requisite ([resource 2]())
+> Some familiarity and previous work with R and RStudio is recommended, but not required.
 > 
 {: .prereq}
 
@@ -42,9 +35,9 @@ Additionally, in a second paragraph, please mention the data set or materials th
 
 
 ## Workshop Recording
-
+{% comment %}
 {% include box_player.html id=page.boxId %}
-
+{% endcomment %}
 ## Survey
 
 Thank you for attending this workshop or reading through the workshop material! If you could take 3-5 min to [respond to our anonymous survey](https://uic.ca1.qualtrics.com/jfe/form/SV_5bYL8vP2EqGbAmW), we can continue to improve this workshop. We appreciate any and all feedback!
