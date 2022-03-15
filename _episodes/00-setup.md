@@ -31,28 +31,20 @@ To follow along you need to set up three things before the workshop:
 See instructions below for all three setup requirements and the UIC Virtual lab option:
 
 {% include intall_instructions/github.html %}
+
 {% include intall_instructions/git.html %}
+
 {% include intall_instructions/r.html %}
 
 {% include install_instructions/virtual_lab.html %}
 
 {% include install_instructions/videoconferencing.html %}
 
-## Setup files:
-
-Please download the following files to particpate in the workshop:
-
-FIXME data: 
-FIXME script: 
-
-FIXME add links to setup files in `files` folder OR if there are many files, zip setup files, add to `files` folder
-and add link to zip file here
 
 ## About the Data Used in this Workshop:
 
-(if the workshop uses data)
+This workshop utilizes the materials found in the following GitHub repository: 
 
-FIXME add intro/description of data. Including file format and any disciplinary background needed to understand
-why the data is gathered and how it is used.
+instructions on how to download and work with these materials will be described in the workshop pages to follow.
 
 {% include links.md %}
