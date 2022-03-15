@@ -30,9 +30,9 @@ To follow along you need to set up three things before the workshop:
 - install R & RStudio (Two separate installations OR you may use the UIC Virtual Lab)
 See instructions below for all three setup requirements and the UIC Virtual lab option:
 
-{% include intall_instructions/github.html}
-{% include intall_instructions/git.html}
-{% include intall_instructions/r.html}
+{% include intall_instructions/github.html %}
+{% include intall_instructions/git.html %}
+{% include intall_instructions/r.html %}
 
 {% include install_instructions/virtual_lab.html %}
 
