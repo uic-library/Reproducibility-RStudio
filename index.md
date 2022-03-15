@@ -7,15 +7,17 @@ boxId: kweltidiq4bv1m9ow12prsuo9x2espsd
 
 
 -------------------------------------------
-What are the features in RStudio beyond running r scripts and can help you keep your research project organized? Join us for this workshop which covers advice for project management in R, working with R project files and using Git version control in RStudio with the aim of making your projects easier to share and more reproducible. 
+What are the features in RStudio beyond running R scripts and can help you keep your research project organized? This hands on workshop covers advice for project management in R, working with R project files and using Git version control in RStudio with the aim of making your projects easier to share and more reproducible. 
+
+This workshop uses the project files and adapted version of the paper: "Trier social stress test and food-choice: Behavioral, self-report & hormonal data." by authors Nitsch, F. J., Sellitto, M., & Kalenscher, T. published in Data in brief in 2021 with permission of the authors for instruction purposes. The paper DOI is https://doi.org/10.1016/j.dib.2021.107245.
 
 {% comment %} briefly list workshop goals below - should be the same as the objectives from each workshop section (also repeated in the workshop overview) {% endcomment %}
 
 ## Workshop goals
-- Research project management in RStudio
-- Setting up RStudio's Git integration
-- Basics of using version control in RStudio with Git
-- Using GitHub to make your work publically available  
+- Learn about research project management in RStudio
+- Set up RStudio's Git integration
+- Understand the basics of using version control in RStudio with Git
+- Use GitHub to make your work publically available  
 
 <br>
 > ## Pre-requisites
