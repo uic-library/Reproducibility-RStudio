@@ -23,13 +23,19 @@ keypoints:
 
 ## Software setup
 
-FIXME add/edit  install instructions (automated, see comment)
+To follow along you need to set up three things before the workshop: 
 
-{% comment %} to add automated software install instructions, add instructions available in the install instructions 
-folder \_includes/install_instructions by using code seen below. Add or remove install instructions as needed. {% endcomment %}
+- Github account (use existing or create new account)
+- install Git for Windows (Windows users only)
+- install R & RStudio (Two separate installations OR you may use the UIC Virtual Lab)
+See instructions below for all three setup requirements and the UIC Virtual lab option:
+
+{% include intall_instructions/github.html}
+{% include intall_instructions/git.html}
+{% include intall_instructions/r.html}
 
 {% include install_instructions/virtual_lab.html %}
-{% include install_instructions/editor.html %}
+
 {% include install_instructions/videoconferencing.html %}
 
 ## Setup files:
