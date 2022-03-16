@@ -1,24 +1,19 @@
 ---
 title: "Setup"
-teaching: 0
+teaching: 10
 exercises: 10
-questions:
-- "How do I setup the software for this workshop?"
-- "What are the workshop materials for this workshop?"
-- "What data are we using for this workshop?"
-- "What is the pre-requisite knowledge I need and where do I get it?"
-- "What other information do I need to know before I begin?"
+
 objectives:
-- "Install necessary software for this workshop"
-- "Download data and other setup files for this workshop"
-- "Get context of data used in this workshop"
-- "Confirm I have the previous knowledge necessary to participate in this workshop"
+- "Install R"
+- "Install RStudio"
+- "Install Git for Windows (if you are a windows user)"
+- "Set up a GitHub Account"
 
 keypoints:
-- "Install X software"
-- "Install Y software"
-- "Download data/setup files x,y,z"
-- "Workshop data is from x, in y format and includes x,y,z types of data"
+- "Install R"
+- "Install RStudio"
+- "Install Git for Windows (if you are a windows user)"
+- "Set up a GitHub Account"
 ---
 
 ## Software setup
@@ -29,6 +24,8 @@ To follow along you need to set up three things before the workshop:
 - install Git for Windows (Windows users only)
 - install R & RStudio (Two separate installations OR you may use the UIC Virtual Lab)
 
+\*NOTE You will not be able to follow along with the hands-on portion of this workshop using the UIC Virtual Lab. You must use the software detailed below through installations on your own computer or on a lab computer. 
+
 See instructions below for all three setup requirements and the UIC Virtual lab option:
 
 {% include install_instructions/github.html %}
@@ -36,8 +33,6 @@ See instructions below for all three setup requirements and the UIC Virtual lab 
 {% include install_instructions/git.html %}
 
 {% include install_instructions/r.html %}
-
-{% include install_instructions/virtual_lab.html %}
 
 {% include install_instructions/videoconferencing.html %}
 
