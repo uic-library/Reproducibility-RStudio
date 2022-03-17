@@ -23,7 +23,48 @@ Terminology:  Git _Push_ and _Pull_
 
 Definition: The process of syncronizing your local git repository with your git repository on Github (or other Git server).
 
-Github used to allow simple Username & Password authentication but now Github requires a more secure method of authentication.  For this workshop we'll be using the SSH Key method.  If you've used SSH authentication before with some other program or service you can likely use your existing keys.  If you do not yet have a pair of SSH keys you can create them using RStudio.
+## Authenticating with GitHub
+
+Github used to allow simple Username & Password authentication but now Github requires a more secure method of authentication.  There are two options to authenticate: Personal Access Tokens (PAT) and SSH. This workshop outlines both methods for authentication. 
+
+### PAT
+
+If this is the first time you are using Git in RStudio, when you push to GitHub from the RStudio IDE, you'll likely be met with a login request:
+
+On a Windows device it will look like this: 
+
+![sign in GitHub Windows](../fig/09-sign-in-git-windows.PNG)
+
+on a Mac it will look like this: 
+
+![sign in GitHub Mac](../fig/09-git-sign-in-mac.png)
+
+Ok, we are going to use PAT
+
+Go to GitHub page, click on your icon/picture in the top right-hand corner, Go to Settings > Developer Settings > Personal Access Tokens and Click on `Generate new token` . Add a note on what it's for, choose expiration, and scope. Click generate token at bottom of page. Once done, copy the token and save it somewhere - it will not display again on GitHub after this point. 
+
+Ok, back to RStudio: 
+
+On Windows navigate to the `Token` tab of the login:
+
+![Windows PAT login](../fig/09-git-windows-PAT.PNG)
+
+paste in your token
+
+On Mac: 
+
+add your GitHub username when prompted:
+
+![Mac GitHub username prompt](../fig/09-git-sign-in-mac.png)
+
+And when asked for a password in the next prompt, paste in your PAT:
+
+![Mac GitHub password prompt](../fig/09-git-mac-password-prompt.png)
+
+
+### SSH
+
+For this workshop we'll be using the SSH Key method.  If you've used SSH authentication before with some other program or service you can likely use your existing keys.  If you do not yet have a pair of SSH keys you can create them using RStudio.
 
 
 
