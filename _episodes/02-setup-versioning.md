@@ -224,6 +224,12 @@ Now, click commit. A dialogue box will pop up. You'll need to add a commit messa
 
 Hit commit and a dialogue box will show a completed commit.
 
+You may also get something like this: 
+
+![git config prompt](../fig/05-git-config-prompt.png)
+
+Which is prompting you to configure your username and email, but is not necessary - you will see your commit still went through. 
+
 You made your first commit!
 
 
