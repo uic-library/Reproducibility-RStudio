@@ -39,7 +39,7 @@ See instructions below for all three setup requirements and the UIC Virtual lab 
 
 ## About the Data Used in this Workshop:
 
-This workshop utilizes the materials found in the following GitHub repository: 
+This workshop utilizes the materials found in the following GitHub repository: [https://github.com/UCSBCarpentry/R-repro-pub](https://github.com/UCSBCarpentry/R-repro-pub)
 
 instructions on how to download and work with these materials will be described in the workshop pages to follow.
 
